@@ -1,12 +1,11 @@
 shiny:
   image:
-    repository: inseefrlab/shiny-app-template
-    tag: "1.0.1"
+    repository: ""
+    tag: ""
   ingress:
     enabled: true
-    hostname: chart-example.local
+    hostname: ""
   s3:
-    enabled: true
     configMapName: ""
     accessKeyId: ""
     endpoint: ""
@@ -14,15 +13,14 @@ shiny:
     secretAccessKey: ""
     sessionToken: ""
   postgresql:
-    enabled: true
     auth:
-      username: myusername
-      password: changeme
-      postgresPassword: changeme
-      database: defaultdb
+      username: ""
+      password: ""
+      postgresPassword: ""
+      database: ""
     containerPorts:
       postgresql: 5432
-    fullnameOverride: quakes-db
+    fullnameOverride: ""
     primary:
       persistence:
         size: 2Gi

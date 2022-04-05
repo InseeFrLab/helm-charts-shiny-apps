@@ -96,20 +96,11 @@
           "description":"Configuration of temporary S3 identity",
           "type":"object",
           "properties":{
-            "enabled":{
-              "type":"boolean",
-              "description":"Add S3 temporary identity inside your environment",
-              "default":true
-            },
             "accessKeyId":{
               "description":"AWS Access Key",
               "type":"string",
               "x-form":{
                 "value":"{{s3.AWS_ACCESS_KEY_ID}}"
-              },
-              "hidden":{
-                "value":false,
-                "path":"shiny/s3/enabled"
               }
             },
             "endpoint":{
@@ -117,10 +108,6 @@
               "type":"string",
               "x-form":{
                 "value":"{{s3.AWS_S3_ENDPOINT}}"
-              },
-              "hidden":{
-                "value":false,
-                "path":"shiny/s3/enabled"
               }
             },
             "defaultRegion":{
@@ -128,10 +115,6 @@
               "type":"string",
               "x-form":{
                 "value":"{{s3.AWS_DEFAULT_REGION}}"
-              },
-              "hidden":{
-                "value":false,
-                "path":"shiny/s3/enabled"
               }
             },
             "secretAccessKey":{
@@ -139,10 +122,6 @@
               "type":"string",
               "x-form":{
                 "value":"{{s3.AWS_SECRET_ACCESS_KEY}}"
-              },
-              "hidden":{
-                "value":false,
-                "path":"shiny/s3/enabled"
               }
             },
             "sessionToken":{
@@ -150,10 +129,6 @@
               "type":"string",
               "x-form":{
                 "value":"{{s3.AWS_SESSION_TOKEN}}"
-              },
-              "hidden":{
-                "value":false,
-                "path":"shiny/s3/enabled"
               }
             }
           }
@@ -162,11 +137,6 @@
           "description":"Configuration of PostgreSQL database",
           "type":"object",
           "properties":{
-            "enabled":{
-              "type":"boolean",
-              "description":"Set up a PostgreSQL database at startup",
-              "default":false
-            },
             "auth":{
               "type":"object",
               "description":"Authentification parameters",
@@ -177,10 +147,6 @@
                   "default":"myusername",
                   "x-form":{
                     "value":"{{project.id}}"
-                  },
-                  "hidden":{
-                    "value":false,
-                    "path":"shiny/postgresql/enabled"
                   }
                 },
                 "password":{
@@ -189,32 +155,12 @@
                   "default":"changeme",
                   "x-form":{
                     "value":"{{project.password}}"
-                  },
-                  "hidden":{
-                    "value":false,
-                    "path":"shiny/postgresql/enabled"
-                  }
-                },
-                "postgresPassword":{
-                  "type":"string",
-                  "title":"Admin password",
-                  "default":"changeme",
-                  "x-form":{
-                    "value":"{{project.password}}"
-                  },
-                  "hidden":{
-                    "value":false,
-                    "path":"shiny/postgresql/enabled"
                   }
                 },
                 "database":{
                   "type":"string",
                   "title":"Database",
-                  "default":"defaultdb",
-                  "hidden":{
-                    "value":false,
-                    "path":"shiny/postgresql/enabled"
-                  }
+                  "default":"defaultdb"
                 }
               }
             }
