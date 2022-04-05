@@ -1,5 +1,17 @@
 apiVersion: v1
 entries:
+  quakes:
+  - apiVersion: v2
+    created: "2022-04-05T10:30:21.723724229Z"
+    dependencies:
+    - name: shiny
+      repository: https://inseefrlab.github.io/helm-charts
+      version: 0.10.0
+    digest: 89a68f28e4a6467016c9d4f212202622f30c0feb1dabcd0d4012a857ddc2869d
+    name: quakes
+    urls:
+    - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/quakes-0.1.0/quakes-0.1.0.tgz
+    version: 0.1.0
   shiny-app-template:
   - apiVersion: v2
     created: "2022-04-05T10:27:11.363927908Z"
