@@ -3,7 +3,7 @@ name: quakes
 description: Dynamic visualization of seismic events near Fiji since 1964.
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Earthquake_-_The_Noun_Project.svg/512px-Earthquake_-_The_Noun_Project.svg.png
 type: application
-version: 0.2.0
+version: 0.3.0
 dependencies:
   - name: shiny
     version: 0.10.0
