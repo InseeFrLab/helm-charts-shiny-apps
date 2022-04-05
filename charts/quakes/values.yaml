@@ -6,6 +6,7 @@ shiny:
     enabled: true
     hostname: ""
   s3:
+    enabled: true
     configMapName: ""
     accessKeyId: ""
     endpoint: ""
@@ -13,6 +14,7 @@ shiny:
     secretAccessKey: ""
     sessionToken: ""
   postgresql:
+    enabled: true
     auth:
       username: ""
       password: ""
