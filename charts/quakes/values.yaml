@@ -7,22 +7,22 @@ shiny:
     annotations:
       kubernetes.io/ingress.class: nginx
     hosts: 
-      - host: myshinyapp.lab.sspcloud.fr
+      - host: chart-example.local
         paths:
         - path: /
           pathType: Prefix
   s3:
     enabled: true
-    existingSecret: myshinyapp-s3
+    existingSecret: quakes-s3
   postgresql:
     enabled: true
     auth:
       username: myusername
       database: defaultdb
-      existingSecret: myshinyapp-postgresql
+      existingSecret: quakes-postgresql
     containerPorts:
       postgresql: 5432
-    fullnameOverride: postgresql-db
+    fullnameOverride: quakes-db
     primary:
       persistence:
         size: 2Gi

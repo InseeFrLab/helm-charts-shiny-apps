@@ -162,7 +162,7 @@
         "enabled":{
           "type":"boolean",
           "description":"Set up a PostgreSQL database at startup",
-          "default":true
+          "default":false
         },
         "auth":{
           "type":"object",
@@ -191,6 +191,15 @@
                 "value":false,
                 "path":"postgresql/enabled"
               }
+            },
+            "database":{
+              "type":"string",
+              "title":"Database",
+              "default":"defaultdb",
+              "hidden":{
+                "value":false,
+                "path":"postgresql/enabled"
+              }
             }
           }
         }
@@ -206,8 +215,7 @@
           "form":true,
           "title":"Hostname",
           "x-form":{
-            "hidden":true,
-            "value":"{{project.id}}-{{k8s.randomSubdomain}}-0.{{k8s.domain}}"
+            "value":"{{project.id}}-{{k8s.randomSubdomain}}.{{k8s.domain}}"
           }
         }
       }
