@@ -12,16 +12,4 @@ entries:
     urls:
     - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/quakes-0.1.0/quakes-0.1.0.tgz
     version: 0.1.0
-  shiny-app-template:
-  - apiVersion: v2
-    created: "2022-04-05T10:27:11.363927908Z"
-    dependencies:
-    - name: shiny
-      repository: https://inseefrlab.github.io/helm-charts
-      version: 0.10.0
-    digest: 24df5911b4027175031db14ca0140e028d698a2024121337e5ee51ed9ecddd13
-    name: shiny-app-template
-    urls:
-    - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/shiny-app-template-0.1.0/shiny-app-template-0.1.0.tgz
-    version: 0.1.0
 generated: "2022-04-05T10:21:41.787986103Z"
