@@ -1,6 +1,8 @@
 apiVersion: v2
 name: quakes
-version: 0.1.0
+description: A template R Shiny app which renders a dynamic Leaflet map from data in a PostgreSQL database. 
+type: application
+version: 0.1.1
 dependencies:
   - name: shiny
     version: 0.10.0
