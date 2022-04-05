@@ -13,13 +13,18 @@ shiny:
           pathType: Prefix
   s3:
     enabled: true
-    existingSecret: quakes-s3
+    configMapName: ""
+    accessKeyId: ""
+    endpoint: ""
+    defaultRegion: ""
+    secretAccessKey: ""
+    sessionToken: ""
   postgresql:
     enabled: true
     auth:
       username: myusername
+      password: changeme
       database: defaultdb
-      existingSecret: quakes-postgresql
     containerPorts:
       postgresql: 5432
     fullnameOverride: quakes-db
