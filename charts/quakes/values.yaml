@@ -18,6 +18,7 @@ shiny:
     auth:
       username: myusername
       password: changeme
+      postgresPassword: changeme
       database: defaultdb
     containerPorts:
       postgresql: 5432

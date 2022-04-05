@@ -185,7 +185,19 @@
                 },
                 "password":{
                   "type":"string",
-                  "title":"Password",
+                  "title":"User password",
+                  "default":"changeme",
+                  "x-form":{
+                    "value":"{{project.password}}"
+                  },
+                  "hidden":{
+                    "value":false,
+                    "path":"shiny/postgresql/enabled"
+                  }
+                },
+                "postgresPassword":{
+                  "type":"string",
+                  "title":"Admin password",
                   "default":"changeme",
                   "x-form":{
                     "value":"{{project.password}}"
