@@ -2,6 +2,19 @@ apiVersion: v1
 entries:
   quakes:
   - apiVersion: v2
+    created: "2022-04-05T10:51:37.904447657Z"
+    dependencies:
+    - name: shiny
+      repository: https://inseefrlab.github.io/helm-charts
+      version: 0.10.0
+    description: A template R Shiny app which renders a dynamic Leaflet map from data in a PostgreSQL database.
+    digest: 665cd53d3feda8b821619bd4184411101785169ac5409034d6105079eba26700
+    name: quakes
+    type: application
+    urls:
+    - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/quakes-0.1.1/quakes-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     created: "2022-04-05T10:30:21.723724229Z"
     dependencies:
     - name: shiny
@@ -11,5 +24,17 @@ entries:
     name: quakes
     urls:
     - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/quakes-0.1.0/quakes-0.1.0.tgz
+    version: 0.1.0
+  shiny-app-template:
+  - apiVersion: v2
+    created: "2022-04-05T10:27:11.363927908Z"
+    dependencies:
+    - name: shiny
+      repository: https://inseefrlab.github.io/helm-charts
+      version: 0.10.0
+    digest: 24df5911b4027175031db14ca0140e028d698a2024121337e5ee51ed9ecddd13
+    name: shiny-app-template
+    urls:
+    - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/shiny-app-template-0.1.0/shiny-app-template-0.1.0.tgz
     version: 0.1.0
 generated: "2022-04-05T10:21:41.787986103Z"
