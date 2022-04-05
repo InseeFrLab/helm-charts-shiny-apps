@@ -70,7 +70,7 @@
                   },
                   "hidden":{
                     "value":false,
-                    "path":"security/allowlist/enabled"
+                    "path":"shiny/security/allowlist/enabled"
                   }
                 }
               }
@@ -109,7 +109,7 @@
               },
               "hidden":{
                 "value":false,
-                "path":"s3/enabled"
+                "path":"shiny/s3/enabled"
               }
             },
             "endpoint":{
@@ -120,7 +120,7 @@
               },
               "hidden":{
                 "value":false,
-                "path":"s3/enabled"
+                "path":"shiny/s3/enabled"
               }
             },
             "defaultRegion":{
@@ -131,7 +131,7 @@
               },
               "hidden":{
                 "value":false,
-                "path":"s3/enabled"
+                "path":"shiny/s3/enabled"
               }
             },
             "secretAccessKey":{
@@ -142,7 +142,7 @@
               },
               "hidden":{
                 "value":false,
-                "path":"s3/enabled"
+                "path":"shiny/s3/enabled"
               }
             },
             "sessionToken":{
@@ -153,7 +153,7 @@
               },
               "hidden":{
                 "value":false,
-                "path":"s3/enabled"
+                "path":"shiny/s3/enabled"
               }
             }
           }
@@ -180,7 +180,7 @@
                   },
                   "hidden":{
                     "value":false,
-                    "path":"postgresql/enabled"
+                    "path":"shiny/postgresql/enabled"
                   }
                 },
                 "password":{
@@ -192,7 +192,7 @@
                   },
                   "hidden":{
                     "value":false,
-                    "path":"postgresql/enabled"
+                    "path":"shiny/postgresql/enabled"
                   }
                 },
                 "database":{
@@ -201,7 +201,7 @@
                   "default":"defaultdb",
                   "hidden":{
                     "value":false,
-                    "path":"postgresql/enabled"
+                    "path":"shiny/postgresql/enabled"
                   }
                 }
               }
