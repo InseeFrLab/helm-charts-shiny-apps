@@ -22,7 +22,7 @@ shiny:
       database: ""
     containerPorts:
       postgresql: 5432
-    fullnameOverride: "quakes-db"
+    fullnameOverride: quakes-db
     primary:
       persistence:
         size: 2Gi
