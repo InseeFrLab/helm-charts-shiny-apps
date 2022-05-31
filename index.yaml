@@ -15,6 +15,21 @@ entries:
     urls:
     - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/ASTA-1.0.0/ASTA-1.0.0.tgz
     version: 1.0.0
+  asta:
+  - apiVersion: v2
+    created: "2022-05-31T13:52:56.563447855Z"
+    dependencies:
+    - name: shiny
+      repository: https://inseefrlab.github.io/helm-charts
+      version: 0.15.1
+    description: Modules de formation à la statistique
+    digest: f0e9a1d1a63cfd130463ce7425581763eacb32e4a63b06750d2af2b43d28be41
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/shinyAppsImg/asta.png
+    name: asta
+    type: application
+    urls:
+    - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/asta-1.0.1/asta-1.0.1.tgz
+    version: 1.0.1
   quakes:
   - apiVersion: v2
     created: "2022-05-31T13:42:02.269196835Z"
