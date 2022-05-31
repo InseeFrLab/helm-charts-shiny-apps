@@ -1,0 +1,7 @@
+shiny:
+  image:
+    repository: "berangered/asta"
+    tag: latest
+  ingress:
+    enabled: false
+    hostname: ""

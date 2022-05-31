@@ -1,0 +1,10 @@
+apiVersion: v2
+name: ASTA
+description: Modules de formation à la statistique
+icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/shinyAppsImg/asta.png
+type: application
+version: 1.0.0
+dependencies:
+  - name: shiny
+    version: 0.15.1
+    repository: https://inseefrlab.github.io/helm-charts
