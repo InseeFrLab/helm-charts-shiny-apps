@@ -1,3 +1,3 @@
 {{- if .Values.shiny.ingress.enabled }}
-- You can connect to this Shiny app with your browser on this [link](http{{ if $.Values.ingress.tls }}s{{ end }}://{{ .Values.ingress.hostname }})
+- You can connect to this Shiny app with your browser on this [link](http{{ if $.Values.shiny.ingress.tls }}s{{ end }}://{{ .Values.shiny.ingress.hostname }})
 {{- end }}
