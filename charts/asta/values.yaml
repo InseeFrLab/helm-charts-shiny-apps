@@ -1,6 +1,6 @@
 shiny:
   image:
-    repository: inseefrlab/asta
+    repository: berangered/asta
     tag: v1.1
   ingress:
     enabled: true
