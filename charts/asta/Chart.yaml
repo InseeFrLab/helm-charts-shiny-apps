@@ -1,9 +1,9 @@
 apiVersion: v2
 name: asta
-description: Modules de formation à la statistique
+description: Application au service du parcours statistique des attachés formés au CEFIL
 icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/shinyAppsImg/asta.png
 type: application
-version: 1.1.1
+version: 1.1.2
 appVersion: "1.1"
 dependencies:
   - name: shiny
