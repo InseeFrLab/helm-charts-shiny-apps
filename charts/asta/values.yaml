@@ -1,7 +1,7 @@
 shiny:
   image:
-    repository: berangered/asta
-    tag: latest
+    repository: inseefrlab/asta
+    tag: v1.1
   ingress:
     enabled: true
     hostname: chart-example.local

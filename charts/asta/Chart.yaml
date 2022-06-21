@@ -3,7 +3,8 @@ name: asta
 description: Modules de formation à la statistique
 icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/shinyAppsImg/asta.png
 type: application
-version: 1.0.6
+version: 1.1.0
+appVersion: "1.1"
 dependencies:
   - name: shiny
     version: 0.16.0
