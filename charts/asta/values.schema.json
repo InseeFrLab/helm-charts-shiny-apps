@@ -27,10 +27,10 @@
                   "description":"supported versions",
                   "type":"string",
                   "enum":[
-                    "berangered/asta:v1.1"
+                    "berangered/asta:v1.2"
                   ],
                   "pattern":"^[a-z0-9-_./]+(:[a-z0-9-_.]+)?$",
-                  "default":"berangered/asta:v1.1"
+                  "default":"berangered/asta:v1.2"
                 }
               }
             }
