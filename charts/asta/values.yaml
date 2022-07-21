@@ -5,3 +5,7 @@ shiny:
   ingress:
     enabled: true
     hostname: chart-example.local
+  resources:
+    requests:
+      cpu: 100m
+      memory: 2Gi
