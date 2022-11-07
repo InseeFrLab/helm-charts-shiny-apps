@@ -112,60 +112,65 @@
               "description":"AWS Access Key",
               "type":"string",
               "x-form":{
-                "hidden": true,
                 "value":"{{s3.AWS_ACCESS_KEY_ID}}"
               },
               "x-onyxia":{
-                "hidden": true,
                 "value":"{{s3.AWS_ACCESS_KEY_ID}}"
+              },
+              "hidden": {
+                  "value": true
               }
             },
             "endpoint":{
               "description":"AWS S3 Endpoint",
               "type":"string",
               "x-form":{
-                "hidden": true,
                 "value":"{{s3.AWS_S3_ENDPOINT}}"
               },
               "x-onyxia":{
-                "hidden": true,
                 "value":"{{s3.AWS_S3_ENDPOINT}}"
+              },
+              "hidden": {
+                  "value": true
               }
             },
             "defaultRegion":{
               "description":"AWS S3 default region",
               "type":"string",
               "x-form":{
-                "hidden": true,
                 "value":"{{s3.AWS_DEFAULT_REGION}}"
               },
               "x-onyxia":{
-                "hidden": true,
                 "value":"{{s3.AWS_DEFAULT_REGION}}"
+              },
+              "hidden": {
+                  "value": true
               }
             },
             "secretAccessKey":{
               "description":"AWS S3 secret access key",
               "type":"string",
               "x-form":{
-                "hidden": true,
                 "value":"{{s3.AWS_SECRET_ACCESS_KEY}}"
               },
               "x-onyxia":{
-                "hidden": true,
                 "value":"{{s3.AWS_SECRET_ACCESS_KEY}}"
+              },
+              "hidden": {
+                  "value": true
               }
             },
             "sessionToken":{
               "description":"AWS S3 session Token",
               "type":"string",
               "x-form":{
-                "hidden": true,
                 "value":"{{s3.AWS_SESSION_TOKEN}}"
               },
               "x-onyxia":{
-                "hidden": true,
                 "value":"{{s3.AWS_SESSION_TOKEN}}"
+              },
+              "hidden": {
+                  "value": true
               }
             }
           }
@@ -182,36 +187,39 @@
                   "type":"string",
                   "title":"Username",
                   "x-form":{
-                    "hidden": true,
                     "value":"{{project.id}}"
                   },
                   "x-onxyia":{
-                    "hidden": true,
                     "value":"{{project.id}}"
+                  },
+                  "hidden": {
+                      "value": true
                   }
                 },
                 "password":{
                   "type":"string",
                   "title":"User password",
                   "x-form":{
-                    "hidden": true,
                     "value":"{{project.password}}"
                   },
                   "x-onxyia":{
-                    "hidden": true,
                     "value":"{{project.password}}"
+                  },
+                  "hidden": {
+                      "value": true
                   }
                 },
                 "database":{
                   "type":"string",
                   "title":"Database",
                   "x-form":{
-                    "hidden": true,
                     "value":"defaultdb"
                   },
                   "x-onxyia":{
-                    "hidden": true,
                     "value":"defaultdb"
+                  },
+                  "hidden": {
+                      "value": true
                   }
                 }
               }
