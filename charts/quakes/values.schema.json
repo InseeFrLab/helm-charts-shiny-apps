@@ -117,7 +117,7 @@
               },
               "x-onyxia":{
                 "hidden": true,
-                "value":"{{s3.AWS_ACCESS_KEY_ID}}"
+                "overwriteDefaultWith":"{{s3.AWS_ACCESS_KEY_ID}}"
               }
             },
             "endpoint":{
@@ -129,7 +129,7 @@
               },
               "x-onyxia":{
                 "hidden": true,
-                "value":"{{s3.AWS_S3_ENDPOINT}}"
+                "overwriteDefaultWith":"{{s3.AWS_S3_ENDPOINT}}"
               }
             },
             "defaultRegion":{
@@ -141,7 +141,7 @@
               },
               "x-onyxia":{
                 "hidden": true,
-                "value":"{{s3.AWS_DEFAULT_REGION}}"
+                "overwriteDefaultWith":"{{s3.AWS_DEFAULT_REGION}}"
               }
             },
             "secretAccessKey":{
@@ -153,7 +153,7 @@
               },
               "x-onyxia":{
                 "hidden": true,
-                "value":"{{s3.AWS_SECRET_ACCESS_KEY}}"
+                "overwriteDefaultWith":"{{s3.AWS_SECRET_ACCESS_KEY}}"
               }
             },
             "sessionToken":{
@@ -165,7 +165,7 @@
               },
               "x-onyxia":{
                 "hidden": true,
-                "value":"{{s3.AWS_SESSION_TOKEN}}"
+                "overwriteDefaultWith":"{{s3.AWS_SESSION_TOKEN}}"
               }
             }
           }

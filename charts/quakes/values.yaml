@@ -4,7 +4,6 @@ shiny:
     tag: "1.0.1"
   ingress:
     enabled: true
-    hostname: chart-example.local
   s3:
     enabled: true
   postgresql:
