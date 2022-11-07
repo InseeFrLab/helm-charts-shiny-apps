@@ -3,6 +3,21 @@ entries:
   asta:
   - apiVersion: v2
     appVersion: v1.2
+    created: "2022-11-07T18:33:16.810666675Z"
+    dependencies:
+    - name: shiny
+      repository: https://inseefrlab.github.io/helm-charts
+      version: 0.23.2
+    description: Application au service du parcours statistique des attachés formés au CEFIL
+    digest: 87dc81c0323ef435e9732ab6b45bb0395a18e18abf481ce74dc8d4f36c88761b
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/shinyAppsImg/asta.png
+    name: asta
+    type: application
+    urls:
+    - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/asta-1.3.5/asta-1.3.5.tgz
+    version: 1.3.5
+  - apiVersion: v2
+    appVersion: v1.2
     created: "2022-11-07T17:48:19.008313217Z"
     dependencies:
     - name: shiny
@@ -237,6 +252,20 @@ entries:
     - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/asta-1.0.1/asta-1.0.1.tgz
     version: 1.0.1
   quakes:
+  - apiVersion: v2
+    created: "2022-11-07T18:33:16.962847006Z"
+    dependencies:
+    - name: shiny
+      repository: https://inseefrlab.github.io/helm-charts
+      version: 0.23.2
+    description: Dataviz réactive des évènements sismiques autour des îles Fiji depuis 1964
+    digest: fdc5f845b2cb76953fb0b0d3fba7670c3dc0cc6b2c7f5ee2105ef0a605f2504f
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/shinyAppsImg/quakes.png
+    name: quakes
+    type: application
+    urls:
+    - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/quakes-1.4.7/quakes-1.4.7.tgz
+    version: 1.4.7
   - apiVersion: v2
     created: "2022-11-07T18:21:08.387048976Z"
     dependencies:
