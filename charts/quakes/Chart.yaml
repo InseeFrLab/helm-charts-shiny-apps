@@ -3,8 +3,8 @@ name: quakes
 description: Dataviz réactive des évènements sismiques autour des îles Fiji depuis 1964
 icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/shinyAppsImg/quakes.png
 type: application
-version: 1.4.0
+version: 1.4.1
 dependencies:
   - name: shiny
-    version: 0.21.0
+    version: 0.21.1
     repository: https://inseefrlab.github.io/helm-charts
