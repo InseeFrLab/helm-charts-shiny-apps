@@ -253,6 +253,20 @@ entries:
     version: 1.0.1
   quakes:
   - apiVersion: v2
+    created: "2022-11-07T20:04:48.456830273Z"
+    dependencies:
+    - name: shiny
+      repository: https://inseefrlab.github.io/helm-charts
+      version: 0.23.2
+    description: Dataviz réactive des évènements sismiques autour des îles Fiji depuis 1964
+    digest: aeb37f54628067b35f558476f2bcd0a5d7cd1a13405311e8aecdf7a799421d12
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/shinyAppsImg/quakes.png
+    name: quakes
+    type: application
+    urls:
+    - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/quakes-1.4.12/quakes-1.4.12.tgz
+    version: 1.4.12
+  - apiVersion: v2
     created: "2022-11-07T19:25:48.984212669Z"
     dependencies:
     - name: shiny
