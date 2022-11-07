@@ -208,19 +208,6 @@
                   "hidden": {
                       "value": true
                   }
-                },
-                "database":{
-                  "type":"string",
-                  "title":"Database",
-                  "x-form":{
-                    "value":"defaultdb"
-                  },
-                  "x-onxyia":{
-                    "value":"defaultdb"
-                  },
-                  "hidden": {
-                      "value": true
-                  }
                 }
               }
             }

@@ -10,10 +10,7 @@ shiny:
   postgresql:
     enabled: true
     auth:
-      username: ""
-      password: ""
-      postgresPassword: ""
-      database: ""
+      database: "defaultdb"
     containerPorts:
       postgresql: 5432
     fullnameOverride: quakes-db
