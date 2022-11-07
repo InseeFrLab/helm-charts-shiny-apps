@@ -40,17 +40,6 @@
           "description":"security specific configuration",
           "type":"object",
           "properties":{
-            "password":{
-              "type":"string",
-              "description":"Password",
-              "default":"changeme",
-              "x-form":{
-                "value":"{{project.password}}"
-              },
-              "x-onyxia":{
-                "value":"{{project.password}}"
-              }
-            },
             "allowlist":{
               "type":"object",
               "description":"IP protection",
