@@ -174,7 +174,7 @@
                     "hidden": true,
                     "value":"{{project.id}}"
                   },
-                  "x-onxyia":{
+                  "x-onyxia":{
                     "hidden": true,
                     "overwriteDefaultWith":"{{project.id}}"
                   }
@@ -186,7 +186,7 @@
                     "hidden": true,
                     "value":"{{project.password}}"
                   },
-                  "x-onxyia":{
+                  "x-onyxia":{
                     "hidden": true,
                     "overwriteDefaultWith":"{{project.password}}"
                   }
