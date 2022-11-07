@@ -187,7 +187,7 @@
                   },
                   "x-onxyia":{
                     "hidden": true,
-                    "value":"{{project.id}}"
+                    "overwriteDefaultWith":"{{project.id}}"
                   }
                 },
                 "password":{
@@ -199,7 +199,7 @@
                   },
                   "x-onxyia":{
                     "hidden": true,
-                    "value":"{{project.password}}"
+                    "overwriteDefaultWith":"{{project.password}}"
                   }
                 }
               }
