@@ -3,6 +3,21 @@ entries:
   asta:
   - apiVersion: v2
     appVersion: v1.2
+    created: "2023-05-24T11:55:47.23780849Z"
+    dependencies:
+    - name: shiny
+      repository: https://inseefrlab.github.io/helm-charts
+      version: 0.25.0
+    description: Application au service du parcours statistique des attachés formés au CEFIL
+    digest: dcde112671ffe6ebcf8a121fb2d8addc61c27d7a26600b3352fa92bbaec13bee
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/shinyAppsImg/asta.png
+    name: asta
+    type: application
+    urls:
+    - https://github.com/InseeFrLab/helm-charts-shiny-apps/releases/download/asta-1.4.0/asta-1.4.0.tgz
+    version: 1.4.0
+  - apiVersion: v2
+    appVersion: v1.2
     created: "2022-11-07T18:33:16.810666675Z"
     dependencies:
     - name: shiny
